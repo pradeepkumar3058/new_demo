@@ -1320,7 +1320,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8b971', end
   align-items: center;
   justify-content: center;
   pointer-events: none;
-  z-index: 9;
+  z-index: 99;
 }
 [id^="lightbox-"]:target {
   opacity: 1;
