@@ -569,6 +569,9 @@ footer {
     margin: 15px 0;
     overflow: hidden;
     text-align: left;}
+a.futtrlogo img {
+    width: 200px;
+}
 .ftitleblack {color: #444;
     display: block;
     font-family: raleway-medium;
@@ -888,7 +891,7 @@ a.social1b {
 .navbar-brand.mylogo {
     height: auto;
     max-width: 200px;}
-.navbar-brand.mylogo img{width:100%;}
+.navbar-brand.mylogo img{width: 165px;max-width: 100%;}
 .navme .navbar-toggle{margin-top:-52px;}
 }
 @media(max-width:400px) {
@@ -1087,12 +1090,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8b971', end
     overflow: hidden;
 }
 .bigcaption {
-    color: #fff;
+    color: #ff5e00;
     display: block;
     font-size: 74px;
     font-weight: 700;
     letter-spacing: 4px;
     overflow: hidden;
+    border-bottom: 2px solid #fff;
+    width: 28%;
+    margin: 0 auto;
     text-align: center;
     text-transform: uppercase;
     text-shadow: 2px 2px 4px #000000;
@@ -1103,7 +1109,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8b971', end
     font-size: 20px;
     overflow: hidden;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 15px;
     text-shadow: 2px 2px 4px #000000;
 }
 .middle_services {
@@ -1316,11 +1322,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8b971', end
   background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   opacity: 0;
+  z-index: 9999;
   transition: opacity 450ms ease-in-out;
   align-items: center;
   justify-content: center;
   pointer-events: none;
-  z-index: 9999;
 }
 [id^="lightbox-"]:target {
   opacity: 1;
@@ -1641,4 +1647,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8b971', end
     background: linear-gradient(to right, red , yellow);
     float: left;
     overflow: hidden;
+}
+.about_wid_content img{
+    max-height: 260px;
+    min-height: 260px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.set_height_images{
+    background-color: #fff;
+    overflow: hidden;
+    max-height: 260px;
+    min-height: 260px;
+    padding: 20px;
 }
