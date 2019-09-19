@@ -865,34 +865,40 @@ a.social1b {
 .clrf{clear:both;}
 }
 @media(max-width:768px) {
-.profileinput, .proselect{width:100%;}
-.tabpro .nav-tabs li a strong{display:none;}
-.topmenu, .mytmenu {float: none;}
-.famenu{display:none;}
-.myhomemenu.navbar-nav li.active{background:#eee;}
-.ritdetmenu {float: none;
-    margin-left: 0;
-    width: 100%;}
-.topritsec {
-    clear: none;
-    float: left;
-    padding: 10px 0;
-    position: relative;
-    width: auto;
-}
-.ritli{margin-right:10px;}
-.navbar-header.myheder {
-    display: block;
-    float: none;
-    overflow: hidden;
-    padding: 0 10px;
-    text-align: center;
-}
-.navbar-brand.mylogo {
-    height: auto;
-    max-width: 200px;}
-.navbar-brand.mylogo img{width: 165px;max-width: 100%;}
-.navme .navbar-toggle{margin-top:-52px;}
+    .profileinput, .proselect{width:100%;}
+    .tabpro .nav-tabs li a strong{display:none;}
+    .topmenu, .mytmenu {float: none;}
+    .famenu{display:none;}
+    .myhomemenu.navbar-nav li.active{background:#eee;}
+    .ritdetmenu {float: none;margin-left: 0;width: 100%;}
+    .topritsec {
+        clear: none;
+        float: left;
+        padding: 10px 0;
+        position: relative;
+        width: auto;
+    }
+    .ritli{margin-right:10px;}
+    .bigcaption{width: 100% !important;font-size: 54px !important;}
+    .smalcaptn{font-size: 16px !important;}
+    .navbar-header.myheder {
+        display: block;
+        float: none;
+        overflow: hidden;
+        padding: 0 10px;
+        text-align: center;
+    }
+    .navbar-brand.mylogo {height: auto;max-width: 200px;}
+    .navbar-brand.mylogo img{width: 165px;max-width: 100%;}
+    .navme .navbar-toggle{margin-top:-20px;}
+    .edgtf-portfolio-project-info .edgtf-portfolio-project-info-aalto-type .edgtf-ppi-table-holder .edgtf-ppi-table-left, .edgtf-portfolio-project-info .edgtf-portfolio-project-info-aalto-type .edgtf-ppi-table-holder .edgtf-ppi-table-right{
+        width: 100% !important;
+        display: block !important;
+        padding:0;
+    }
+    .edgtf-portfolio-project-info-aalto-type, .vc_column-inner{padding: 0 !important;}
+    .edgtf-row-grid-section{width: 100%;}
+
 }
 @media(max-width:400px) {
 .tabpro .nav-tabs > li > a .fa{font-size:20px;}
@@ -1243,7 +1249,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8b971', end
 
 #gallery {
   display: grid;
-  height: calc(100vh - 10px);
+  min-height: calc(100vh - 10px);
   grid-template: repeat(6, 1fr)/repeat(6, 1fr);
   grid-gap: 0.5em;
 }
