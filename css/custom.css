@@ -1676,10 +1676,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8b971', end
     line-height: 32px;
     padding: 40px 0;
 }
-
-.wardrob {
-    background: #ffffff;
-}
+.wardrob {background: #ffffff;}
+.myhomemenu.navbar-nav li:hover a {color: #fff;}
+.myhomemenu.navbar-nav li:hover {background: none repeat scroll 0 0 #fb8602;}
 
 
 
