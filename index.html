@@ -583,7 +583,12 @@
 
 $(document).ready(function(){
 	
-	
+	 $('.menunav').click(function() {
+
+    //console.log("Clicked");
+    $('.menunav li.active').removeClass('active');
+    $(this).addClass('active');
+});
 	$('.plus').click(function() {
 		var sp = parseFloat($(this).siblings('.datemix').text());
 	

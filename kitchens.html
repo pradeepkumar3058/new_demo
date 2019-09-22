@@ -89,8 +89,8 @@
           <ul class="nav menunav navbar-nav myhomemenu">
             <li> <a href="wardrobes.html"><!-- <span class="iconmenu ihome"></span> -->Wardrobes</a> </li>
             <li> <a href="kids.html"><!-- <span class="iconmenu iflight"></span>  -->KIDS</a> </li>
-            <li class="active"> <a href="living_room.html"><!-- <span class="iconmenu ihotel"></span> -->LIVING ROOM</a> </li>
-            <li> <a href="kitchen.html"><!-- <span class="iconmenu itransfer"></span> -->KITCHEN MODULES</a> </li>            
+            <li> <a href="living_room.html"><!-- <span class="iconmenu ihotel"></span> -->LIVING ROOM</a> </li>
+            <li class="active"> <a href="kitchen.html"><!-- <span class="iconmenu itransfer"></span> -->KITCHEN MODULES</a> </li>            
           </ul>
         </div>
         
@@ -107,20 +107,20 @@
 <div class="bg_contact_img">
   <div class="container">
     <div class="cont_head">
-      <h2><span>Living Room</span></h2>
+      <h2><span>Kitchen</span></h2>
     </div>
   </div>
 </div>
 <div class="wardrob">
   <div class="container">
-    <p>From timeless classics to minimalist designs discover our full range of
-living room furniture to create a stylish space in any home. Our living room range includes Sofas,
-wooden chairs, coffee tables and kids furnitures. Kids furniture&#39;s are designed with the requirement of
-every kid in mind. When designing a sofa, our first priority is comfort, so you can relax in the knowledge
-that all of our luxury sofas are built to the highest standards with solid frames, traditional sprung
-support and layered cushions. We at AVYUKTA use high quality materials in our products which will
-deliver maximum comfort, satisfaction and value to our customers. Why not explore our catalogue to
-discover our fascinating range of products.</p>
+    <p>At AVYUKTA we design and manufacture European style modular kitchen according
+to our customer,s requirements at our state-of-the-art manufacturing facility in Bangalore. We strongly
+believe in crafting a modular kitchen is a matter of both art and science, thus creating a masterpiece
+that makes cooking session pleasant and memorable for our customers. We focus on design elegance,
+space maximization and functionality. Our aim is to deliver both luxury and value to our customers.
+Glance through at our catalogue to have an overview of our fantastic collection of modular kitchens,
+which will allow you to visualize transforming your kitchen into a perfectly designed and elegantly
+comfortable one.</p>
   </div>
 </div>
 
@@ -230,6 +230,12 @@ discover our fascinating range of products.</p>
 
 $(document).ready(function(){
 	
+   $('.menunav').click(function() {
+
+    //console.log("Clicked");
+    $('.menunav li.active').removeClass('active');
+    $(this).addClass('active');
+});
 	
 	$('.plus').click(function() {
 		var sp = parseFloat($(this).siblings('.datemix').text());

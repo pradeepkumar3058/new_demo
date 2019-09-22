@@ -87,7 +87,7 @@
       <div class="topmenu">
         <div class="collapse mytmenu navbar-collapse nopad" id="bs-example-navbar-collapse-1">
           <ul class="nav menunav navbar-nav myhomemenu">
-            <li class="active"> <a href="wardrobes.html"><!-- <span class="iconmenu ihome"></span> -->Wardrobes</a> </li>
+            <li> <a href="wardrobes.html"><!-- <span class="iconmenu ihome"></span> -->Wardrobes</a> </li>
             <li> <a><!-- <span class="iconmenu iflight"></span>  -->KIDS</a> </li>
             <li> <a><!-- <span class="iconmenu ihotel"></span> -->LIVING ROOM</a> </li>
             <li> <a><!-- <span class="iconmenu itransfer"></span> -->KITCHEN MODULES</a> </li>            
@@ -269,7 +269,12 @@
 <script>
 
 $(document).ready(function(){
-	
+	 $('.menunav').click(function() {
+
+    //console.log("Clicked");
+    $('.menunav li.active').removeClass('active');
+    $(this).addClass('active');
+});
 	
 	$('.plus').click(function() {
 		var sp = parseFloat($(this).siblings('.datemix').text());
