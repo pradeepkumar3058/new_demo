@@ -560,7 +560,7 @@ footer {
     width: 100%;}
 .footerbotm{background: none repeat scroll 0 0 #2b2b2b;
     float: left;
-    padding: 20px 0 5px;
+    padding: 20px 0;
     width: 100%;}
 .copurit a{color:#fff;}
 .copurit{color:#d1d1d1;
@@ -1669,3 +1669,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8b971', end
     min-height: 310px;
     padding: 20px;
 }
+
+.set_height_images h1{font-weight: 500;}
+.wardrob p {
+    font-size: 14px;
+    line-height: 32px;
+    padding: 40px 0;
+}
+
+.wardrob {
+    background: #ffffff;
+}
+
+
+
