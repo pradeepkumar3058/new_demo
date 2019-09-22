@@ -1654,6 +1654,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8b971', end
     background: linear-gradient(to right, red , yellow);
     float: left;
     overflow: hidden;
+    margin: 5% 0;
 }
 .about_wid_content img{
     max-height: 310px;
