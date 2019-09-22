@@ -579,7 +579,7 @@ a.futtrlogo img {
     margin-bottom: 5px;
     overflow: hidden;}
 .footerlistblack a { color: #666;
-    display: block;
+    display: block;cursor: pointer;
     font-size: 13px;
     overflow: hidden;
     padding: 3px 0;}
@@ -1574,10 +1574,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8b971', end
     clear: both;
     display: block;
     position: relative;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 .flat-row .flat-about-us {
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 .flat-about-us .about-us-img .v1 {
     top: -40px;
@@ -1651,10 +1651,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8b971', end
 }
 .team_one{
     display: block;
-    background: linear-gradient(to right, red , yellow);
+    background: linear-gradient(to right, #ffd9cb , #eb5b33);
     float: left;
     overflow: hidden;
-    margin: 5% 0;
+    margin: 0;
 }
 .about_wid_content img{
     max-height: 310px;
@@ -1681,5 +1681,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8b971', end
 /*.myhomemenu.navbar-nav li:hover a {color: #fff;}
 .myhomemenu.navbar-nav li:hover {background: none repeat scroll 0 0 #fb8602;}
 */
-
+.about_us_div {
+    color: #fff;
+    line-height: 28px;
+    font-size: 14px;
+    padding: 20px 0;
+}
+.desc p{line-height: 28px;}
 
