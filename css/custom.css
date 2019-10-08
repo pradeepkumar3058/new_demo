@@ -6,6 +6,11 @@
 
 /* Global Styles */
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700&display=swap');
+/*@font-face {
+  font-family: ArialNova;
+  src: url('../fonts/ArialNova-Bold.woff');
+}*/
+
 html,
 body {
     height: 100%;
