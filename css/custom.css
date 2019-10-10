@@ -6,10 +6,10 @@
 
 /* Global Styles */
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700&display=swap');
-/*@font-face {
-  font-family: ArialNova;
-  src: url('../fonts/ArialNova-Bold.woff');
-}*/
+@font-face {
+  font-family: CenturyGothicBold;
+  src: url('../fonts/CenturyGothicBold.ttf');
+}
 
 html,
 body {
@@ -1103,16 +1103,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8b971', end
 .bigcaption {
     color: #ff5e00;
     display: block;
-    font-size: 16em;
+    font-size: 18em;
     font-weight: 700;
     letter-spacing: 4px;
     line-height: 100%;
     overflow: hidden;
     border-bottom: 2px solid #3a3a3a;
-    width: 80%;
+    width: 80%;    padding-bottom: 35px;
     margin: 0 auto;
     text-align: center;
-    text-transform: uppercase;
+    font-family: CenturyGothicBold;
     text-shadow: 2px 2px 4px #000000;
 }
 .smalcaptn {
